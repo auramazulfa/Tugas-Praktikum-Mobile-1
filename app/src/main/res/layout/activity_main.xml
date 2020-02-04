@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/laptop" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/horizontal_margin"
+            android:paddingBottom="@dimen/vertical_margin"
+            android:paddingLeft="@dimen/horizontal_margin"
+            android:paddingTop="@dimen/vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_produk"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deskripsi_produk"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/spesifikasi"
+                android:textColor="@android:color/black" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:text="Prosesor"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text="@string/prosesor"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:text="Memori"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text="@string/memori"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:text="Display"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text="@string/display"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:text="Grafis"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text="@string/grafis"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:text="Storage"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text="@string/storage"
+                        android:textColor="@android:color/black"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 15.000.000,-"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"/>
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Beli"
+                android:background="@android:color/holo_blue_dark"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

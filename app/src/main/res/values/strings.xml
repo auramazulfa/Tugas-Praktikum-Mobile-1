@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spesifikasi Laptop</string>
+    <string name="nama_produk">ROG G74Sx 3D</string>
+    <string name="deskripsi_produk">Menghadirkan kemampuan daripada sebuah desktop PC gaming, G74SX mendefinisi ulang arti dari gaming portabel. Gaming dengan resolusi penuh dan multimedia berdefisini tinggi dikemas dalam sebuah notebook kompak yang membiarkan anda untuk mendominasi seluruh kompetisi dalam perjalanan</string>
+    <string name="spesifikasi">Spesifikasi Produk : </string>
+    <string name="prosesor">Prosesor Intel® Core™ i7 2630QM</string>
+    <string name="memori">
+        DDR3 1333 MHz SDRAM, 4 x socket SO-DIMM untuk ekspansi hingga 16 GB SDRAM (Quad Core)\n2 x socket SO-DIMM untuk ekspansi hingga 8 GB SDRAM (Dual Core)</string>
+    <string name="display">17.3″ 16:9 HD+ (1600×900)/Full HD (1920×1080)/Full HD 3D(1920×1080 120Hz) LED Backlight</string>
+    <string name="grafis">NVIDIA® GeForce® GTX 560M dengan 3GB/2GB GDDR5 VRAM</string>
+    <string name="storage">
+        2.5″ SATA\n750GB 5400rpm/7200rpm\n640GB 5400rpm\n500GB 5400rpm/7200rpm\n500GB 7200rpm SSH\nDukungan Dual HDD*1\n2.5″ SATA\n160GB SSD</string>
+</resources>
